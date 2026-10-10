@@ -3,26 +3,43 @@
 For **`agentproto@ietf.org`** ([archive](
 https://mailarchive.ietf.org/arch/browse/agentproto))
 
-`agentproto` (Agent Communication Protocols) is a Birds of a Feather group
-([BOF](https://datatracker.ietf.org/group/agentproto/about/)) not (yet) a
-chartered working group.
+`agentproto` (Agent Communication Protocols) is an
+[IETF working group](https://datatracker.ietf.org/group/agentproto/about/)
+with an [approved charter](https://datatracker.ietf.org/doc/charter-ietf-agentproto/).
 
-This list is for humans to discuss the agenda set by the chairs (designated
-by the AD responsible for the BoF).
+This list is for humans to advance the chartered work under the agenda
+managed by the working group chairs.
+The responsible Area Director (AD) appoints the chairs.
 Sections 1, 2 and 4 are conditions of posting.
 Sections 3, 6 and 7 are advice.
+These guidelines supplement IETF procedures; those procedures govern if
+there is a conflict.
 
 ## 1. Scope and agenda
 
-The chairs set and protect the agenda.
-Posts relate to the posted agenda or to the BOF's purpose, and the chairs
-defer or reject messages that do not.
+The chairs set and protect the agenda within the approved charter.
+Posts must relate to the chartered work and respect the chairs' directions
+on discussion topics and timing.
+The chairs defer or redirect off-topic discussion.
 For the details, see [RFC 2418](https://www.rfc-editor.org/rfc/rfc2418.html)
-(BCP 25) §3.1 and §3.3, and [RFC 5434](
-https://www.rfc-editor.org/rfc/rfc5434.html) §4 for the BOF form of the
-same rule.
-RFC 2418 assumes a charter, which this group does not have yet, so we read
-it against the BOF's stated purpose.
+(BCP 25) §3.1, §3.3, and §6.1.
+
+The charter covers agentic dialog management, a reference architecture,
+and supporting use cases and requirements.
+Dialog context consists of identifiers and lifecycle state, excluding
+prompts and conversation memory.
+The work uses existing IETF protocols and reuses security building blocks.
+Read the charter for the full scope and exclusions.
+Raise proposed scope changes with the chairs; expanding the scope requires
+the IETF rechartering process (RFC 2418 §5).
+
+The mailing list is the primary forum for working group discussion and
+confirmation of consensus.
+Bring substantive discussion and proposed decisions from meetings, GitHub,
+and Slack to the list so participants can review and respond.
+The chairs assess rough consensus, including unresolved technical objections;
+message counts and GitHub reactions do not determine consensus.
+See RFC 2418 §3.2 and §3.3.
 
 ## 2. Conduct (required)
 
@@ -56,6 +73,8 @@ English, and avoid slang (RFC 7154 §2).
 - **Thread limits.** Let discussions end.
   Once each side has stated a position twice, take it off-list or ask the
 chairs to close the thread.
+  This advice limits repetition; it does not dispose of unresolved technical
+objections or prevent new evidence from being considered.
 
 ## 4. AI-assisted posts (required)
 
@@ -67,18 +86,23 @@ content.
 3. **Moderation.** The chairs moderate off-agenda AI threads, and say so
 on-list and to the sender.
    To contest a decision, ask the chairs to explain or reverse it.
+   Unresolved working group process disputes can be raised with the
+   responsible AD under [RFC 2418 §3.4](https://www.rfc-editor.org/rfc/rfc2418.html#section-3.4).
+   Moderation actions follow applicable IETF procedures, including the
+   transition provisions in [RFC 9945 §4](https://www.rfc-editor.org/rfc/rfc9945.html#section-4)
+   and its [appeals process](https://www.rfc-editor.org/rfc/rfc9945.html#section-4.1).
 4. **Meta-discussion.** Do not start threads here about this policy.
    The community-wide discussion is on `ietf@ietf.org` ([archive](
 https://mailarchive.ietf.org/arch/browse/ietf/)) in the thread "Dealing
 with LLMs in IETF discussions".
-   Moderation-policy discussion also has an official designated forum, `
-mod-discuss@ietf.org` ([archive](
+   Moderation-policy discussion also has an official designated forum,
+`mod-discuss@ietf.org` ([archive](
 https://mailarchive.ietf.org/arch/browse/mod-discuss/)) for community
 moderation under RFC 9945.
    Before raising it on any other list, ask that list's chairs whether the
 topic is on their agenda.
-   Send comments on this document to the `agentproto` chairs (
-agentproto-chairs@ietf.org)
+   Send comments on this document to the
+[`agentproto` chairs](mailto:agentproto-chairs@ietf.org).
 5. **False positives.** Some flagged messages will turn out to have no AI
 involvement, and the chairs will correct those errors on-list.
    We accept that error rate because consensus needs discussion that humans
@@ -130,9 +154,11 @@ summarise a thread, without a large hosted model.
 
 ## 8. Governing documents
 
+- [AgentProto charter](https://datatracker.ietf.org/doc/charter-ietf-agentproto/):
+Working group scope, deliverables, and coordination.
 - [RFC 9945](https://www.rfc-editor.org/rfc/rfc9945.html) (BCP 245): IETF
-Community Moderation. Its designated discussion forum is `
-mod-discuss@ietf.org` ([archive](
+Community Moderation. Its designated discussion forum is
+`mod-discuss@ietf.org` ([archive](
 https://mailarchive.ietf.org/arch/browse/mod-discuss/))
 - [RFC 2418](https://www.rfc-editor.org/rfc/rfc2418.html) (BCP 25): Working
 Group Guidelines and Procedures.
